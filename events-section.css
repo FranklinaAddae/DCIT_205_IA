@@ -1,0 +1,91 @@
+.events-section{
+    height: 700px;
+
+}
+
+.events-header{
+    background-image: linear-gradient(91.01deg, rgb(98, 0, 89) 3.46%, rgb(1, 126, 124) 95.48%);
+    height: 100px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.events-area{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 567px;
+    font-family: sans-serif;
+    border: 2px solid red;
+    padding-left: 100px;
+    width: 1150px;
+    margin-left: 140px;
+}
+
+.events-area nav{
+    height: 80px;
+    width: 200px;
+    border: 1px solid rgb(210, 211, 212);
+    display: grid;
+    align-items: center;
+    padding-left: 40px;;
+}
+
+.left-events-area{
+    border-right: 1px solid black;
+}
+
+.events-area select{
+    height: 30px;
+    width: 150px;
+    color: rgb(0, 108, 184);
+    font-size: 19px;
+    border: none;
+}
+
+.events-area select:hover{
+    text-decoration: underline;
+}
+
+.right-events-area{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.event1{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    border-bottom: 1px solid rgb(210, 211, 212);
+}
+
+.event-date{
+    border-right: 1px solid black;
+    text-align: left;
+    padding-top: 20px;
+}
+.event-date .month{
+    display: block;
+    color: rgb(46, 45, 41);
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+}
+
+.event-date .day{
+    display: block;
+    color: rgb(46, 45, 41);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.event-info p{
+    color: rgb(46, 45, 41);
+    font-size: 19px;
+    font-family: sans-serif;
+}

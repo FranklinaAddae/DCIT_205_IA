@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Move Div Down with Red Background</title>
+  <style>
+    #container {
+      width: 200px;
+      height: 300px; /* Height increased to accommodate the red background */
+      position: relative;
+      overflow: hidden; /* Hide overflow content */
+    }
+
+    #moveMe {
+      width: 200px;
+      height: 200px;
+      background-color: #ccc;
+      position: relative;
+      transition: margin-top 0.5s ease-in-out; /* Adding a transition for smooth movement */
+    }
+
+    /* Styling for the red background div */
+    #redBackground {
+      width: 100%;
+      height: 100px; /* Height to create space */
+      background-color: red;
+      position: absolute;
+      top: 0;
+      display: none; /* Initially hidden */
+    }
+
+    /* Styling for the button */
+    button {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="redBackground"></div> <!-- Red background div -->
+    <div id="moveMe"></div> <!-- Movable div -->
+  </div>
+  <button onclick="toggleMove()">Move Down</button>
+
+  <script>
+    let isMoved = false;
+
+    function toggleMove() {
+      const moveMe = document.getElementById('moveMe');
+      const redBackground = document.getElementById('redBackground');
+
+      if (!isMoved) {
+        moveMe.style.marginTop = '100px'; // Move down by 100 pixels
+        redBackground.style.display = 'block'; // Show the red background div
+      } else {
+        moveMe.style.marginTop = '0'; // Move back to original position
+        redBackground.style.display = 'none'; // Hide the red background div
+      }
+
+      isMoved = !isMoved; // Toggle the state
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<form>
+  <p>
+    <input type="text" id="userInput" name="userInput" placeholder="Enter full name">
+  </p>
+  <p>
+    <input type="text" id="userInput" name="userInput" placeholder="Enter email address">
+  </p>
+  <p>
+    <input type="text" id="userInput" name="userInput" placeholder="Enter subject">
+  </p>
+  <p>
+    <textarea placeholder="Enter message"></textarea>
+  </p>
+  <input class="submit-button" type="submit" value="Send message">
+</form>
+
+                    <input type="text" placeholder="Enter full name"> <br>
+                    <br>
+                    <input type="text" placeholder="Enter email address"><br>
+                    <br>
+                    <input type="text" placeholder="Enter subject"><br>
+                    <br>
+                    <textarea> Enter message</textarea> <br>
+                    <br>
+                    <input type="submit" value="Send message">

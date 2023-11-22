@@ -1,0 +1,117 @@
+.short-courses-section{
+    height: 1000px;
+    background-image: linear-gradient(rgb(240, 244, 247), rgb(220, 229, 237));
+    padding-bottom: 30px;
+
+}
+
+.page-title{
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: rgb(0, 40, 74);
+    top: 40px;
+  }
+
+.short-courses{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    top: 30px;
+    width: 1000px;
+    position: relative;
+    left: 240px;
+}
+
+.course1{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 400px 1fr;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 1px 2px 20px rgb(144, 142, 142);
+    cursor: pointer;
+}
+.course1:hover{
+    transform: scale(1.1);
+}
+
+.course1-img{
+    background-image: url(course1-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course-info h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.course-info{
+    padding-left: 20px;
+    color: rgb(0, 40, 74);
+}
+
+.course-info p{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+.course2{
+    position: relative;
+    left: 100px;
+    display: grid;
+    width: 800px;
+    grid-template-columns: 400px 1fr;
+    box-shadow: 1px 2px 20px rgb(144, 142, 142);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.course2:hover{
+    transform: scale(1.1);
+}
+
+.course2-img{
+    background-image: url(course2-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course3{
+    display: grid;
+    width: 800px;
+    grid-template-columns: 400px 1fr;
+    position: relative;
+    left: 100px;
+    box-shadow: 1px 2px 20px rgb(144, 142, 142);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.course3:hover{
+    transform: scale(1.1);
+}
+
+.course3-img{
+    background-image: url(course3-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course4{
+        display: grid;
+        width: 1000px;
+        grid-template-columns: 400px 1fr;
+        box-shadow: 1px 2px 20px rgb(144, 142, 142);
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+}
+.course4:hover{
+    transform: scale(1.1);
+}
+.course4-img{
+    background-image: url(https://www.shutterstock.com/image-vector/programming-web-development-isometric-concept-260nw-1147129526.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
