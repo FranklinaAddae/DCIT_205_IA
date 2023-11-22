@@ -13,11 +13,11 @@
 <body>
     <div class="header" id="mainHeader">
         <div class="crest-section">
-            <a href="https://www.ug.edu.gh/"><img class="header-content" id="headerContent" src="crest.png" alt=""></a>
+            <a href="https://www.ug.edu.gh/"><img class="header-content" id="headerContent" src="photos/crest.png" alt=""></a>
             <div class="search-hamburger-section">
               <div class="search-container" id="searchContainer">
                 <div class="search-icon-container">
-                  <img class="search-icon" src="search-icon.png" alt="">
+                  <img class="search-icon" src="photos/search-icon.png" alt="">
                 </div>
                 <p class="search-text">Search </p>
               </div>
@@ -76,16 +76,15 @@
           </div>
         </div>
     </div>
-    <!--
+
     <div class="background-video" id="moveMe">
       <video class="video" autoplay muted loop id="myVideo">
-        <source src="video (2160p).mp4" type="video/mp4">
+        <source src="media/video (2160p).mp4" type="video/mp4">
       </video>
       <div class="text-overlay">
         <h1>Computer Science Department</h1>
-        <button id="myBtn" onclick="myFunction()">Pause</button>
       </div>
-    </div>-->
+    </div>
 
     <div class="nav-bar">
       <ul class="nav-bar-links">
@@ -100,7 +99,7 @@
 
     <div class="our-programs-section">
       <div class="top-arrow-section">
-        <img src="backtotop_icon.webp" alt="">
+        <img src="photos/backtotop_icon.webp" alt="">
       </div>
       <h2 class="section-title">Our Programs</h2>
       <div class="programs">
@@ -237,124 +236,10 @@
     </div>
 
     <div class="top-arrow-section" id="scrollToTopButtonDuplicate">
-      <img src="backtotop_icon.webp" alt="">
+      <img src="photos/backtotop_icon.webp" alt="">
     </div>
 
 
-    <script>
-    window.addEventListener('scroll', function() {
-      const header = document.getElementById('mainHeader');
-      const headerContent = document.getElementById('headerContent');
-      const scrollPos = window.scrollY;
-
-      // Change the header height based on scroll position
-      if (scrollPos > 20) { // Change 200 to the scroll position where you want the header to shrink
-        header.style.height = '100px';
-        headerContent.style.height = '50px'; // Adjust the height when the header shrinks
-      } else {
-        header.style.height = '150px';
-        headerContent.style.height = '60px'; // Adjust the font size when the header expands
-      }
-    });
-
-    const hamburgerMenu = document.getElementById('hamburgerMenu');
-const menuOverlay = document.getElementById('menuOverlay');
-const hamburgerContainer = document.getElementById('hamburgerContainer');
-const menuText = document.getElementById('menu-text');
-
-// Function to open/close menuOverlay and change menu text
-function toggleMenu() {
-  hamburgerMenu.classList.toggle('active');
-  menuOverlay.style.height = menuOverlay.style.height === '100vh' ? '0' : '100vh';
-  menuText.textContent = menuText.textContent === 'Menu' ? 'Close' : 'Menu';
-}
-
-// Click event for hamburgerMenu
-hamburgerMenu.addEventListener('click', function(event) {
-  event.stopPropagation(); // Prevents the click event from bubbling up
-  toggleMenu();
-});
-
-// Click event for hamburgerContainer
-hamburgerContainer.addEventListener('click', function() {
-  toggleMenu();
-});
-
-// Close menu when clicking outside the menu area
-document.addEventListener('click', function(event) {
-  if (!menuOverlay.contains(event.target) && event.target !== hamburgerContainer) {
-    hamburgerMenu.classList.remove('active');
-    menuOverlay.style.height = '0';
-    menuText.textContent = 'Menu'; // Revert text back to 'Menu'
-  }
-});
-
-
-
-
-    // Function to scroll to the top smoothly
-    function scrollToTop() {
-      // Calculate the current scroll position
-      const scrollStep = -window.scrollY / (800 / 15); // 500 is the duration of the scroll in milliseconds
-
-      // Function to scroll the page smoothly
-      function scrollStepFunction() {
-        if (window.scrollY !== 0) {
-          window.scrollBy(0, scrollStep);
-          requestAnimationFrame(scrollStepFunction);
-        }
-      }
-
-      // Call the smooth scroll function
-      requestAnimationFrame(scrollStepFunction);
-    }
-
-    // Add click event listener to the div
-    const scrollToTopDiv = document.querySelector('.top-arrow-section');
-    scrollToTopDiv.addEventListener('click', scrollToTop);
-const scrollToTopButtonDuplicate = document.getElementById('scrollToTopButtonDuplicate');
-scrollToTopButtonDuplicate.addEventListener('click', scrollToTop);
-
-
-// JavaScript code to scroll to a specific distance
-document.getElementById('contactLink').addEventListener('click', function (e) {
-    e.preventDefault();
-    const scrollDistance = 2900; // Set your desired scrolling distance in pixels
-
-    window.scroll({
-        top: scrollDistance,
-        behavior: 'smooth'
-    });
-});
-
-
-document.getElementById('shortCoursesLink').addEventListener('click', function (e) {
-    e.preventDefault();
-    const scrollDistance = 1170; // Set your desired scrolling distance in pixels
-
-    window.scroll({
-        top: scrollDistance,
-        behavior: 'smooth'
-    });
-});
-
-
-/*var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
-x
-// Pause and play the video, and change the button text
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-*/
-</script>
+<script src="script.js"></script>
 </body>
 </html>

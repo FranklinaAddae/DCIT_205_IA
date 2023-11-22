@@ -1,7 +1,7 @@
 .contact-us-section{
     border: 1px solid black;
     height: 620px;
-    background-image: url(contact-bg.png);
+    background-image: url(photos/contact-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
