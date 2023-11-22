@@ -1,0 +1,260 @@
+.third-page{
+    height: 160vh;
+    width: 100%;
+    background-image: url(media/meetings-bg.jpg);
+    /*background-color: black;*/
+    margin-bottom: ;
+}
+.third-page-title{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    height: 35px;
+    margin-top: 100px;
+    padding-bottom: 15px;
+    width: 1320px;
+    margin-left: 40px;
+}
+
+.meetings-section{
+    height: 800px;
+    width: 1320px;
+    margin-left: 40px;
+    /*padding-left: 60px;
+    padding-right: 60px;*/
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    column-gap: 20px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.left-section{
+    padding-left: 17px;
+}
+
+.categories{
+    border: 1px solid black;
+    height: 420px;
+    width: 350px;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+}
+.meeting-categories{
+    height: 380px;
+    width: 300px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+}
+
+.right-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.meeting-item{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    
+}
+
+.one{
+    display: grid;
+    grid-template-rows: 230px 1fr;
+}
+.one-image{
+    background-image: url(https://www.amaconferencecenters.org/wp-content/uploads/2019/04/AMA-blog-rawpixel-653764-unsplash-768x502.jpg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.one-info-section{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.one-month{
+    color: rgb(185, 27, 27);
+    text-align: center;
+    height: 12px;
+    font-family: sans-serif;
+}
+.one-day{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 25px;
+    font-family: sans-serif;
+}
+
+.info-header{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.info-content{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+
+.two{
+    display: grid;
+    grid-template-rows: 230px 1fr; 
+}
+.two-image{
+    background-image: url(	https://themewagon.github.io/edu-meeting/assets/images/meeting-04.jpg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two-info-section{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+.two-date{
+    
+}
+.two-month{
+    color: rgb(185, 27, 27);
+    text-align: center;
+    height: 12px;
+    font-family: sans-serif;
+}
+.two-day{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 25px;
+    font-family: sans-serif; 
+}
+
+
+.two-info{
+    
+}
+
+
+.three{
+    display: grid;
+    grid-template-rows: 230px 1fr;
+}
+.three-image{
+    background-image: url(https://s7280.pcdn.co/wp-content/uploads/2021/10/bmc-hackathon-authorized-state-810x405.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.three-info-section{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    padding-top: 10px;
+}
+.three-date{
+    
+}
+.three-month{
+    color: rgb(185, 27, 27);
+    text-align: center;
+    height: 12px;
+    font-family: sans-serif;
+}
+.three-day{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 25px;
+    font-family: sans-serif; 
+}
+
+.three-info{
+    padding-top: 5px;
+}
+
+.four{
+    display: grid;
+    grid-template-rows: 230px 1fr;
+}
+.four-image{
+    background-image: url(https://www.e-mfp.eu/sites/default/files/news2021/Research_conf_2019.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.four-info-section{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+.four-date{
+    
+}
+.four-month{
+    color: rgb(185, 27, 27);
+    text-align: center;
+    height: 12px;
+    font-family: sans-serif;
+}
+.four-day{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 25px;
+    font-family: sans-serif; 
+}
+
+.four-info{
+
+}
+
+.scroll-icon{
+    height: 40px;
+    position: fixed;
+    right: 25px;
+}
+
+/* Updated CSS for the scroll to top button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    padding-left: 8px;
+    background-color: white;
+    border-radius: ;
+    display: grid;
+    align-items: center;
+    border-radius: 25px;
+    border: 3px solid rgb(234, 41, 119);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Transition for opacity */
+  }
+  
+  #scrollToTopBtn.show {
+    opacity: 1;
+  }
+  

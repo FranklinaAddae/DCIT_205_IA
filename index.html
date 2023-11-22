@@ -3,243 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS Department Website</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="hamburger-menu.css">
-    <link rel="stylesheet" href="contact-us-section.css">
-    <link rel="stylesheet" href="short-couses-section.css">
-    <link rel="stylesheet" href="events-section.css">
+    <title>CS WEBSITE</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css"> 
+    <link rel="stylesheet" href="first-page.css">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="third-page.css">
 </head>
 <body>
-    <div class="header" id="mainHeader">
-        <div class="crest-section">
-            <a href="https://www.ug.edu.gh/"><img class="header-content" id="headerContent" src="photos/crest.png" alt=""></a>
-            <div class="search-hamburger-section">
-              <div class="search-container" id="searchContainer">
-                <div class="search-icon-container">
-                  <img class="search-icon" src="photos/search-icon.png" alt="">
+       <div class="first-page">
+            <div class="first-page-cover"></div>
+            <div class="page1-header">
+              <div class="header-left-section">
+                  <div class="crest-names-section">
+                    <div class="crest-section">
+                      <a href="https://www.ug.edu.gh/">
+                        <img class="crest" src="https://upload.wikimedia.org/wikipedia/commons/6/64/University_of_Ghana.png?w=144" alt="">
+                      </a>
+                    </div>
+                    <div class="names-section">
+                        <div class="department-name">
+                            COMPUTER SCIENCE DEPARTMENT
+                        </div>
+                        <div class="school-name">
+                            <a href="https://www.ug.edu.gh/">UNIVERSTY OF GHANA</a>
+                        </div>
+                    </div>
                 </div>
-                <p class="search-text">Search </p>
               </div>
-              <div class="hamburger-container" id="hamburgerContainer">
-                <div class="hamburger" id="hamburgerMenu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <p class="menu-text" id="menu-text">Menu</p>
+
+              <div class="header-right-section">
+                <div class="page1-nav-bar">
+                  <div class="dropdown">
+                    <a href="#">Home</a>
+                  </div>
+                  <div class="dropdown">
+                    <a href="academics.html">Academics</a>
+                    <div class="dropdown-content">
+                      <!-- Your dropdown items here -->
+                      <a href="#">Undergraduate Courses</a>
+                      <a href="#">Graduate Courses(MPhil Computer Science)</a>
+                      <a href="#">Graduate Courses(MSc Computer Science)</a>
+                      <a href="#">Graduate Courses(PhD)</a>
+                      <a href="#">Academic Calendar</a>
+                      <a href="#">Timetable</a>
+                      <a href="#">Student Complaint Form</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <a href="#">Faculty</a>
+                    <div class="dropdown-content">
+                      <!-- Your dropdown items here -->
+                      <a href="#">Faculty</a>
+                      <a href="#">Affiliates</a>
+                      <a href="#">Faculty Achievements</a>
+                      <a href="#">Adjunct Teaching</a>
+                      <a href="#">Procedures and Policies</a>
+                      <a href="#">Open Positions</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <a href="#">News & Events</a>
+                    <div class="dropdown-content">
+                      <!-- Your dropdown items here -->
+                      <a href="#">Department Lectures</a>
+                      <a href="#">Department Events</a>
+                      <a href="#">News</a>
+                      <a href="#">Newsletters</a>
+                      <a href="#">Press Mentions</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <a href="#" class="nav-link">Admissions</a>
+                    <div class="dropdown-content">
+                      <!-- Your dropdown items here -->
+                      <a href="#">Undergraduate</a>
+                      <a href="#">Graduates</a>
+                      <a href="#">International Students</a>
+                      <a href="#">Entry Requirements</a>
+                      <a href="#">Contact Us</a>
+                    </div>
+                  </div>
+                  <div class="dropdown5">
+                    <a href="#">Advising & Students Services</a>
+                    <div class="dropdown5-content">
+                      <a href="#">Academic Advising</a>
+                      <a href="#">Careers</a>
+                      <a href="#">Life After CS</a>
+                      <a href="#">Student Awards</a>
+                      <a href="#">Student Life</a>
+                      <a href="#">Student Organizations</a>
+                    </div>
+                  </div>
+                  <a href="#" onclick="scrollToDiv('third-page')">Meetings</a>
                 </div>
               </div>
-          </div>
-        </div>
-
-        <div class="menu-overlay" id="menuOverlay">
-          <div class="drop-down-page">
-            <div class="drop-down-links">
-              <h3>Academics</h3>
-              <ul>
-                <li><a href="#">Undergraduate Courses</a></li>
-                <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
-                <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
-                <li><a href="#">Graduate Courses(PhD)</a></li>
-                <li><a href="#">Academic Calendar</a></li>
-                <li><a href="#">Level 200 & 300 Timetable</a></li>
-                <li><a href="#">Student Complaint Form</a></li>
-              </ul>
-          </div>
-            <div class="drop-down-links">
-              <h3>Admissions</h3>
-              <ul>
-                <li><a href="#">Undergraduate</a></li>
-                <li><a href="#">Graduate</a></li>
-                <li><a href="#">International Students</a></li>
-                <li><a href="#">Entry Requirements</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
             </div>
-            <div class="drop-down-links">
-              <h3>About the Department</h3>
-              <ul>
-                <li><a href="#">Research at DCS</a></li>
-                <li><a href="#">Research Impact</a></li>
-                <li><a href="#">Libraries</a></li>
-              </ul>
+
+            <div class="home-message-container">
+              <h1>Welcome to the Computer Science Department</h1>
+              <h4> Inovate &#183; Code &#183; Create</h4>
+          </div>
+
+       </div>
+
+       <div class="page2">
+        
+            <div class="page2-header">
+                <div class="p2header-left-section"></div>
+                <div class="p2header-right-section">
+                    <div class="page2-nav-bar">
+                        <div class="p2-nav-link"><a href="#">Home</a></div>
+                        <div class="p2-nav-link"><a href="about.html">About US</a></div>
+                        <div class="p2-nav-link"><a href="#">Contact US</a></div>
+                        <div class="p2-nav-link"><input type="text" placeholder="Search..."></div>
+                    </div>
+                </div>
             </div>
-            <div class="drop-down-links">
-              <h3>Research</h3>
-              <ul>
-                <li><a href="#">Introducing DCS</a></li>
-                <li><a href="#">Head of Department's office</a></li>
-                <li><a href="#">Faculty</a></li>
-                <li><a href="#">Events</a></li>
-              </ul>
+            <div class="page2-cover">
+              <div class="research-areas-section">
+                <p class="small-text">
+                  Research areas
+                </p>
+                <h1 class="big-text">Research areas</h1>
+                <div class="research-links1">
+                  <a href="#"><div class="first-row-items">Computational<br> Neuroscience<b>&nearr;</b></div></a>
+                  <a href="#"><div class="first-row-items">Artificial Intelligence<b>&nearr;</b></div></a>
+                  <a href="#"><div class="first-row-items">Machine Learning<b>&nearr;</b></div></a>
+                  <a href="#"><div class="first-row-items">Human-Computer Interaction<b>&nearr;</b></div></a>
+                </div>
+                <div class="research-links2">
+                  <a href="#"><div class="second-row-items">Programming<br> Languages<b>&nearr;</b></div></a>
+                  <a href="#"><div class="second-row-items">Graphics, Vision, and Visualization<b>&nearr;</b></div></a>
+                  <a href="#"><div class="second-row-items">Computation and <br>Society<b>&nearr;</b></div></a>
+                  <a href="#"><div class="second-row-items">Computer Architecture<b>&nearr;</b></div></a>
+                </div>
+                <div class="research-links3">
+                  <a href="#"><div class="third-row-items">Computational and Data Science <b>&nearr;</b></div></a>
+                  <a href="#"><div class="third-row-items">Systems, Networks, <br>and Databases<b>&nearr;</b></div></a>
+                  <a href="#"><div class="third-row-items">Economics and Computation<b>&nearr;</b></div></a>
+                  <a href="#"><div class="third-row-items">Theory of Computation<b>&nearr;</b></div></a>
+                </div>
+                <div class="research-links4">
+                  <a href="#"><div class="fourth-row-items">Quantum Computing<b>&nearr;</b></div></a>
+                </div>
+              </div>
+         </div>
+         <div class="third-page" id="thirdPage">
+          <div class="third-page-title">UPCOMING MEETINGS</div>
+          <div class="meetings-section">
+            <div class="left-section">
+              <div class="categories">
+                <div class="meeting-categories">
+                  <h4>meeting categories</h4>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="background-video" id="moveMe">
-      <video class="video" autoplay muted loop id="myVideo">
-        <source src="media/video (2160p).mp4" type="video/mp4">
-      </video>
-      <div class="text-overlay">
-        <h1>Computer Science Department</h1>
-      </div>
-    </div>
-
-    <div class="nav-bar">
-      <ul class="nav-bar-links">
-        <li><a href="#" id="programsLink">Our Programs</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#" id="shortCoursesLink">Short Courses</a></li>
-        <li><a href="#" id="contactLink">Contact Us</a></li>
-        <li><a href="#">Research Groups</a></li>
-      </ul>
-    </div>
-
-    <div class="our-programs-section">
-      <div class="top-arrow-section">
-        <img src="photos/backtotop_icon.webp" alt="">
-      </div>
-      <h2 class="section-title">Our Programs</h2>
-      <div class="programs">
-        <div class="program-item1">
-          <h3 class="item1-program-name">Computer Science</h3>
-          <p class="cs-paragraph">Bachelor of Science</p>
-        </div>
-        <div class="program-item2">
-          <h3 class="item2-program-name">Information Technology</h3>
-          <p class="it-paragraph">Bachelor of Science</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="short-courses-section">
-      <h2 class="page-title">Our Short Courses</h2>
-      <div class="short-courses">
-        <div class="course1">
-          <div class="course1-img"></div>
-          <div class="course-info">
-            <h3>Information Security and Ethical Hacking</h3>
-            <p> Delve into the fundamental principles of safeguarding data, networks,<br> and systems from cyber threats 
-              while learning the ethical methodologies<br> of hacking for security purposes
-            </p>
-          </div>
-        </div>
-
-        <div class="course2">
-          <div class="course2-img"></div>
-          <div class="course-info">
-            <h3>Mobile Application Development</h3>
-            <p>Gain expertise in app design, development, testing, and deployment 
-              while exploring the latest trends and technologies in the rapidly evolving mobile landscape.</p>
-          </div>
-        </div>
-
-        <div class="course3">
-          <div class="course3-img"></div>
-          <div class="course-info">
-            <h3>Computer Network Fundamentals</h3>
-            <p>Embark on a journey into the core principles of Computer Network Fundamentals with this course.</p>
-          </div>
-        </div>
-
-        <div class="course4">
-          <div class="course4-img"></div>
-          <div class="course-info">
-            <h3>Introduction to Web Programming</h3>
-            <p> Gain insight into essential web development concepts, 
-              empowering you to<br> kickstart your path toward creating dynamic, functional, and responsive<br> websites.</p>
-          </div>          
-        </div>
-
-      </div>
-    </div>
-    
-    <div class="events-section">
-      <div class="events-header">
-        <h2>Events</h2>
-      </div>
-      <div class="events-area">
-        <div class="left-events-area">
-          <nav>
-            <select>
-              <option>Event Types</option>
-              <option>All Upcoming Events</option>
-              <option>CS Info Sessions</option>
-              <option>Conference/Symposium</option>
-              <option>General CS Events</option> 
-            </select>
-          </nav>
-        </div>
-        <div class="right-events-area">
-          <div class="event1">
-            <div class="event-date">
-              <span class="month">Nov</span>
-              <span class="day">29</span>
-            </div>
-            <div class="event-info">
-              <p>Class/Seminar</p>
+            <div class="right-section">
+              <div class="meeting-item">
+                <div class="one">
+                  <div class="one-image"></div>
+                  <div class="one-info-section">
+                    <div class="one-date">
+                      <h3 class="one-month">NOV</h3>
+                      <span class="one-day">28</span>
+                    </div>
+                    <div class="one-info">
+                      <p class="info-header">Tech Talk Tuesdays</p>
+                      <p class="info-content">Don't miss our next Talk Tech Tuesdays <br>
+                         session! <br> Dive into the latest tech trends, share <br>
+                          insights, and connect with fellow tech <br>
+                           enthusiasts.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="two">
+                  <div class="two-image"></div>
+                  <div class="two-info-section">
+                    <div class="two-date">
+                      <h3 class="two-month">DEC</h3>
+                      <span class="two-day">3</span>
+                    </div>
+                    <div class="two-info">
+                      <p class="info-header">Faculty-Student Mixer</p>
+                      <p class="info-content">Join us for a casual and engaging Faculty- <br>
+                        Student Mixer! Connect with professors, <br>
+                         fellow students, and build valuable <br>
+                          connections within the computer science community.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="meeting-item">
+                <div class="three">
+                  <div class="three-image"></div>
+                  <div class="three-info-section">
+                    <div class="three-date">
+                      <h3 class="three-month">NOV</h3>
+                      <span class="three-day">30</span>
+                    </div>
+                    <div class="three-info">
+                      <p class="info-header">Hackathon Planning Session</p>
+                      <p class="info-content">Join us as we plan and organize our <br> 
+                        next exciting hackathon event.Get 
+                        <br> ready for a collaborative and 
+                        <br> innovative session!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="four">
+                  <div class="four-image"></div>
+                  <div class="four-info-section">
+                    <div class="four-date">
+                      <h3 class="four-month">DEC</h3>
+                      <span class="four-day">23</span>
+                    </div>
+                    <div class="four-info">
+                      <p class="info-header">Graduate Student Research Colloquium</p>
+                      <p class="info-content">Engage in discussions, discover cutting- <br>
+                        edge research, and support our talented <br> graduate students in their academic <br> pursuits.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div>sdkjfladfmla</div>
-          <div>dfajjnakl;mdf,a</div>
-        </div>
-      </div>
-    </div>
+         </div>
 
-    <div class="contact-us-section">
-      <div class="section-cover">
-        <div class="contact-info-section">
-          <div class="left-info-section">
-            <h2 class="info-header">Contact Us</h2>
-            <p class="info-sub-header">The CS Department is excited to aid every academic pursuit.<br>
-               Connect with us and embark on an inspiring learning journey.
-            </p>
+         <a href="#" id="scrollToTopBtn" title="Go to top">
+          <img class="scroll-icon" src="media/toparrow.png" alt="">
+         </a>
 
-            <p class="info-sub-header2">The Computer Science Department's location stands directly across<br>
-               from the Mathematics Department within the main university campus.</p>
-          </div>
-          <div class="right-info-section">
-            <div class="location-section">
-              <strong>Location:</strong>
-              <p>University Of Ghana, Legon Campus</p>
-              <p>Opposite Mathematics Department</p>
-              <strong>Phone:</strong>
-              <p>+233 501 382 035</p>
-              <p>+233 559 145 698</p>
-              <strong>Email:</strong>
-              <p>dcs&#64;ug.edu.gh</p>
+         <div class="webpage-footer">
+            <div class="footer-div1" style="color: white;">
+              <h2 class="footer-div-h2">Security &#38; Brand</h2>
+              <ol class="footer-div-ol">
+                <li>Report Copyright Infringement</li>
+                <li>Report Security Issue</li>
+                <li>Trademark Notice</li>
+              </ol>
             </div>
-            <div class="form-section">
-              <strong>SEND A MESSAGE</strong>
-              <div>
-                <form>  
-                  <p>
-                    <input type="text" id="input" placeholder="Enter full name">
-                  </p>
-                  <p>
-                    <input type="text" id="input" placeholder="Enter email address">
-                  </p>
-                  <p>
-                    <input type="text" id="input" placeholder="Enter subject">
-                  </p>
-                  <p>
-                    <textarea placeholder="Enter message"></textarea>
-                  </p>
-                  <input class="submit-button" type="submit" value="Send message">
-                </form>
+            <div class="footer-div">
+              <div class="footer-div2">
+                <h2 class="footer-div-h2">Website</h2>
+                <ol class="footer-div-ol">
+                  <li>Accessibility</li>
+                  <li>Digital Accessibility</li>
+                  <li>Privacy Statement</li>
+                </ol>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <div class="footer-div">
+              <div class="footer-div3">
+                <h2 class="footer-div-h2">Get In Touch</h2>
+                <ol class="footer-div-ol">
+                  <li>Contact CS Department</li>
+                  <li>Maps & Directions</li>
+                  <li>Jobs</li>
+                </ol>
+              </div>
+            </div>
+            <div class="media-handles">
+              <a href=""><img class="handle" src="media/Instagram.png" alt=""></a>
+              <a href=""><img class="handle" src="media/Linkedin.png" alt=""></a>
+              <a href=""><img class="handle" src="media/FB.webp" alt=""></a>
+              <a class="x-image" href=""><img class="handle-x" src="media/X_logo.png" alt=""></a>
+              <a href=""><img class="handle" src="media/youtube.png" alt=""></a>
+            </div>
+         </div>
+            </div>
 
-    <div class="top-arrow-section" id="scrollToTopButtonDuplicate">
-      <img src="photos/backtotop_icon.webp" alt="">
-    </div>
 
 
 <script src="script.js"></script>
+
 </body>
 </html>
