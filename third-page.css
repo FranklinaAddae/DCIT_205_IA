@@ -70,7 +70,7 @@
     grid-template-rows: 230px 1fr;
 }
 .one-image{
-    background-image: url(https://www.amaconferencecenters.org/wp-content/uploads/2019/04/AMA-blog-rawpixel-653764-unsplash-768x502.jpg);
+    background-image: url(media/meeting1.jpg);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     background-position: center;
@@ -115,7 +115,7 @@
     grid-template-rows: 230px 1fr; 
 }
 .two-image{
-    background-image: url(	https://themewagon.github.io/edu-meeting/assets/images/meeting-04.jpg);
+    background-image: url(media/meeting2.jpg);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     background-position: center;
@@ -156,7 +156,7 @@
     grid-template-rows: 230px 1fr;
 }
 .three-image{
-    background-image: url(https://s7280.pcdn.co/wp-content/uploads/2021/10/bmc-hackathon-authorized-state-810x405.png);
+    background-image: url(media/meeting3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@
     grid-template-rows: 230px 1fr;
 }
 .four-image{
-    background-image: url(https://www.e-mfp.eu/sites/default/files/news2021/Research_conf_2019.jpg);
+    background-image: url(media/meeting4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
