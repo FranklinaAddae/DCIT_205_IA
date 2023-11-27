@@ -78,18 +78,3 @@ window.scroll({
     behavior: 'smooth'
 });
 });
-
-
-window.addEventListener('scroll', function() {
-  const header = document.getElementById('mainHeader');
-  const headerContent = document.getElementById('headerContent');
-  const scrollPos = window.scrollY;
-  
-  if (scrollPos > 20) {
-    header.style.height = '90px';
-    headerContent.style.height = '100px';
-  } else {
-    header.style.height = '100px';
-    headerContent.style.height = '130px';
-  }
-});

@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    /*background-color: rgb(174, 192, 193);*/
+
+}
+
+.header{
+    position: fixed;
+    background-color: rgb(10, 1, 49);
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: height 0.4s ease; /* Adding a transition for smooth animation */
+    z-index: 1;
+}
+
+
+.header-content{
+    display: grid;
+    grid-template-columns: 50px 200px;
+    height: 90px;
+    align-items: center;
+    width: 300px;
+    margin-left: 25px;
+    transition: height 0.4s;
+}
+
+
+.header button{
+    position: relative;
+    left: 1270px;
+    bottom: 85px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(179, 152, 103);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header button:hover{
+    transform: scale(1.1);
+}
+
+.crest-section{
+    display: grid;
+    align-items: center;
+}
+
+.crest{
+    height: 60px;
+
+}
+
+.names-section{
+    display: grid;
+    grid-template-rows: 50px 2px;
+    align-items: center;
+    height: 70%;
+    width: 136px;
+}
+
+.department-name{
+    font-size: 13px;
+    color: white;
+    /*color: rgb(18, 80, 151);*/
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    border-bottom: 2px solid rgb(179, 152, 103);
+    font-family: sans-serif;
+}
+
+
+.school-name a{
+    font-size: 10px;
+    color: white;
+    /*color: rgb(18, 80, 151);*/
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.courses-page{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 130px;
+}
+
+.page-photo{
+    height: 300px;
+    background-image: url(media/courses-big.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: black;
+    color: rgb(10, 1, 49);
+    display: grid;
+    align-items: center;
+}
+
+.page-photo h1{
+    color: rgb(253, 206, 118);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+}
+
+.page-photo h3{
+    color: rgb(253, 206, 118);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.photo-cover{
+    background-color:  rgba(0,0,0, 0.4);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.photo-cover button{
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(253, 206, 118);
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.photo-cover button:hover{
+    color: white;
+    border: 2px solid rgb(253, 206, 118);
+}
+
+.below-cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 1px 2px 20px rgb(101, 100, 100);
+    height: 170px;
+}
+
+.item{
+    display: grid;
+}
+
+.image-container{
+    width: 200px;
+    height: 140px;
+    margin-left: 110px;
+    border-bottom: 2px solid rgb(253, 206, 118);
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}
+
+.image-container img{
+    height: 20px;
+
+}
+
+.image-container button{
+    border: 3px solid rgb(253, 206, 118);
+    width: 45px;
+    height: 45px;
+    margin-left: 35%;
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 7px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+}
+
+strong{
+    margin-left: 35px;
+}
+
+.image-container p{
+    line-height: 20px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.course-item{
+    height: 350px;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    box-shadow: 1px 2px 20px rgb(144, 142, 142);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.course-item:hover{
+    transform: scale(1.05);
+}
+
+.course1-image{
+    background-image: url(media/course2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.course3-image{
+    background-image: url(media/course1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course2-image{
+    background-image: url(media/course3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course4-image{
+    background-image: url(media/course4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course-info{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.course-info h4{
+    font-size: 16px;
+    color: rgb(10, 1, 49);
+}
+
+.course-info p{
+    line-height: 24px;
+}
