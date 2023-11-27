@@ -127,9 +127,12 @@ body{
 }
 
 .right-academics-content{
-    border-top: 5px solid black;
+    border-top: 5px solid black; 
+}
 
-    
+.right-academics-content a{
+    text-decoration: none;
+    color: black;
 }
 
 .right-academics-content ul{
