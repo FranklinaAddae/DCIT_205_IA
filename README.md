@@ -1,23 +1,62 @@
 # DCIT_205_IA
 
-# Computer Science Department website
+# Computer Science Department Website
 
-## Introduction and Purpose
-The Computer Science Department Website is a comprehensive online platform designed to serve as the central hub for information regarding the Computer Science department's activities, faculty, courses, and events. 
+## Introduction
+Welcome to the Computer Science Department's website! This website aims to showcase information about our department's programs, courses, faculty, and events.
 
-### Purpose:
-- **Problem Statement:** There's a need for a centralized information portal that provides detailed insights into the Computer Science department's resources and activities.
-- **Solution:** Our website aims to bridge this gap by offering a one-stop destination for students, faculty, and interested parties to access essential information about the department.
+## Purpose of the Website
+The purpose of this website is to provide a comprehensive platform for students, faculty, and visitors to:
+- Explore information about our department's programs and courses.
+- Learn about our esteemed faculty members.
+- Stay updated with upcoming departmental events and activities.
 
-### Functionality:
-- **Key Features:** 
-  - Detailed Faculty Information: Profiles and specialties of the faculty members.
-  - Course Catalog: Comprehensive details about courses offered, syllabi, and prerequisites.
-  - Event Calendar: Upcoming departmental events, seminars, and workshops.
-- **Use Cases:** 
-  - Prospective Students: Accessing information about courses and faculty.
-  - Current Students: Checking event schedules and department announcements.
+## Cloning and Setup Instructions
+To view or contribute to the website, follow these steps:
+1. Clone the repository: `git clone https://github.com/yourusername/computer-science-dept.git`.
+2. Navigate to the project directory: `cd computer-science-dept`.
+3. Open the `index.html` file in a web browser to view the website.
+4. Optionally, modify or extend the website by editing HTML, CSS, or JavaScript files using your preferred code editor.
 
-### Audience or Target Users:
-- **Target Audience:** Current and prospective students, faculty members, and individuals interested in the department's activities.
-- **Value Proposition:** Our website provides easy access to crucial information, fostering better engagement and communication within the Computer Science department.
+## Name and Student ID
+- **Name**: Franklina Addae
+- **Student ID**: 11262526
+
+## Screenshots
+### Homepage
+![](screenshots/homepage.png)
+### Courses Page
+![shortcoursespage](screenshots/shortcoursespage.png)
+![shortcoursespage2](screenshots/shortcoursespage2.png)
+### About Page
+![aboutpage](screenshots/aboutpage.png)
+### Events Page
+![events](screenshots/events.png)
+### Contact Page
+![contact](screenshots/contact.png)
+### Research Page
+![researchpage](screenshots/researchpage.png)
+### FAQ Page
+![faqpage](screenshots/faqpage.png)
+### Meetings Page
+![meetingspage](screenshots/meetingspage.png)
+![meetingspage2](screenshots/meetingspage2.png)
+### Academics Page
+![academicspage](screenshots/academicspage.png)
+### Graduate Page
+![graduatepage](screenshots/graduatepage.png)
+### Undergraduate Page
+![undergraduatepage](screenshots/undergraduatepage.png)
+
+## Lessons Learned
+During the development of this project, I gained insights into:
+- HTML, CSS, and JavaScript for web development.
+- Building a responsive and user-friendly website layout.
+- Implementing interactive features using JavaScript.
+- Organizing and structuring content effectively.
+- Troubleshooting and debugging web applications.
+
+This project provided hands-on experience in creating a functional and informative website using fundamental web technologies.
+
+---
+*This project README is maintained by Franklina Addae. Feel free to contact me for any queries or suggestions.*
