@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    background-color: rgb(10, 1, 49);
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: height 0.4s ease; /* Adding a transition for smooth animation */
+    z-index: 1;
+}
+
+
+.header-content{
+    display: grid;
+    grid-template-columns: 50px 200px;
+    height: 90px;
+    align-items: center;
+    width: 300px;
+    margin-left: 25px;
+    transition: height 0.4s;
+}
+
+
+.header button{
+    position: relative;
+    left: 1270px;
+    bottom: 85px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(179, 152, 103);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header button:hover{
+    transform: scale(1.1);
+}
+
+.crest-section{
+    display: grid;
+    align-items: center;
+}
+
+.crest{
+    height: 60px;
+
+}
+
+.names-section{
+    display: grid;
+    grid-template-rows: 50px 2px;
+    align-items: center;
+    height: 70%;
+    width: 136px;
+}
+
+.department-name{
+    font-size: 13px;
+    color: white;
+    /*color: rgb(18, 80, 151);*/
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    border-bottom: 2px solid rgb(179, 152, 103);
+    font-family: sans-serif;
+}
+
+
+.school-name a{
+    font-size: 10px;
+    color: white;
+    /*color: rgb(18, 80, 151);*/
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.below-header{
+    height: 230px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    top: 120px;
+    background-image: url(https://w7.pngwing.com/pngs/79/888/png-transparent-person-using-white-laptop-internet-technology-world-wide-web-mobile-phone-computer-earth-computer-tech-fashion-business-background-business-woman-fashion-girl-service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.article-area{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    column-gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    top: 0;
+    z-index: -1;
+    
+}
+
+.left-article{
+    border-top: 5px solid black;
+}
+
+.right-article{
+    border-top: 5px solid black;
+    height: 1100px;
+    background-image: url(https://previews.123rf.com/images/dragonimages/dragonimages1612/dragonimages161202938/66969959-vertical-image-of-businesspeople-showing-fists-in-the-sign-of-power-and-strength-of-their-team.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+
+ul{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+.about-footer{
+border: solid blue;
+}
+
+.article-footer-container{
+    display: grid;
+    grid-template-rows: 1fr 90px;
+    row-gap: 100px;
+    top: 400px;
+    position: absolute;
+    width: 1520px;
+}
+
+.logo-section{
+    height: 100%;
+    width: 300px;
+    background-color: orange;
+}
+
+.logo{
+    height: 90px;
+}
