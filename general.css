@@ -8,13 +8,13 @@ body{
 
 .home-message-container{
     position: absolute;
-    top: 40%;
+    top: 30%;
     color: white;
     left: 80px;
 }
 
 .home-message-container h1{
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     text-transform: uppercase;
 }
@@ -23,9 +23,10 @@ body{
     border: none;
     font-size: 20px;
     text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 35px;
 }
-
-
 
 .other-links{
     display: grid;

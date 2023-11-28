@@ -30,7 +30,7 @@
     width: 100%;
     height: 50px;
     display: grid;
-    grid-template-columns: 130px 130px 130px 130px 130px 250px 100px 50px;
+    grid-template-columns: 130px 130px 130px 250px 130px 130px  50px 130px;
     text-align: center;
     align-items: center;
 }
@@ -106,7 +106,7 @@
   }
 
   .dropdown{
-    border-right: 2px solid rgb(240, 234, 234);
+ 
   }
   .dropdown-content a:hover{
     color: red;
@@ -158,7 +158,7 @@
 }
 
 .dropdown5{
-    border-right: 2px solid rgb(240, 234, 234);
+  
 }
 .dropdown5-content a:hover{
     color: red;
@@ -167,5 +167,5 @@
 
 
 .meetings-link{
-    border-right: 2px solid white;
+
 }

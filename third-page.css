@@ -39,17 +39,18 @@
 
 .categories{
     border: 1px solid black;
-    height: 420px;
+    height: 100%;
     width: 350px;
     border-radius: 20px;
     display: grid;
     align-items: center;
+    background-image: url(https://s3.envato.com/files/347899128/JB1A1090.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .meeting-categories{
-    height: 380px;
-    width: 300px;
-    margin-left: 25px;
-    background-color: whitesmoke;
+
 }
 
 .right-section{
